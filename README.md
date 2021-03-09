@@ -22,15 +22,23 @@ In this project we used:
 
 ## Installation
 
-Just clone the repository and run:
+There are two ways to use the project:
+1. You can link the template to a command (recommended), by cloning the repository and running 
 
 ```bash
-npm install
+npm link
 ```
+then you will be able to create a new project with this boilerplate by executing:
+```bash
+react-template your-project-name
+```
+or
+
+2. You can just clone the repository and use it as a template.
 
 ## Usage
 
-After installation just run `npm start` to run the project.
+After installation, just execute `npm start` to run the project.
 
 ## Contributing
 
@@ -40,4 +48,4 @@ Please make sure to update tests as appropriate.
 
 ## License
 
-[MIT](https://choosealicense.com/licenses/mit/)
+[ISC](http://opensource.org/licenses/ISC)
